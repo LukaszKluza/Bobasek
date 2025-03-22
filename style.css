@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(36, 36, 36);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    max-width: 800px;
+    min-height: 20%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+#rules p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+.error {
+    color: red;
+    display: none;
+    margin-top: 10px;
+}
+
+#countdown {
+    font-size: 132px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 5%;
+    z-index: 2;
+}
+
+#countdown_2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff0000;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 1%;
+    z-index: 2;
+}
+
+
+#countdownLabel {
+    font-size: 44px;
+    color: white;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 1%;
+    z-index: 1;
+}
+
+#countdown.warning {
+    color: red;
+}
+
+#hello {
+    font-size: 34px;
+}
+
+#pdfLink {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #a79828;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+#pdfLink:hover {
+    background-color: #886421;
+    transform: scale(1.05);
+}
+
